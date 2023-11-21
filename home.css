@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff;
+    height: 100vh;
+}
+
+h1 {
+    font-family: 'Merriweather', sans-serif;
+    padding: 1.2rem;
+    text-align: center;
+    font-size: 2.19rem;
+    font-weight: 700;
+}
+
+.container {
+    background: -webkit-linear-gradient(left, rgb(243, 204, 172), #e1e1e1);
+    height: 28vh;
+}
+
+.form-container {
+    margin: 1.875rem 0 3.125rem 1.25rem;
+}
+
+nav {
+    background-color: #fff;
+    padding: 1.2rem;
+    max-width: 21.875rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1.2rem auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+nav:hover {
+    background-color: #e1e1e1;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    padding: 0 0.9375rem;
+}
+
+nav ul a {
+    position: relative;
+    color: blue;
+    font-size: 17px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+nav ul a:hover {
+    color: #fff;
+}
+
+img {
+    object-fit: cover;
+    width: 25rem;
+    height: 12.5rem;
+    margin: 1.5625rem;
+    border-radius: 15px;
+    box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.4);
+}
+
+p {
+    font-size: 1.0/625rem;
+    margin-left: 0.9375rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    max-width: 85rem;
+    margin-bottom: 1rem;
+}
+
+.info a {
+    text-decoration: none;
+    margin: 1.5rem;
+    padding: 0.7rem;
+    border-radius: 15px;
+    background: -webkit-linear-gradient(left, rgb(243, 204, 172), #e1e1e1);
+}
+
+.info a:hover {
+    color: #fff;
+}
+
+footer {
+    margin-top: 1.5rem;
+    padding: 2rem;
+    height: 12vh;
+    font-size: 1rem;
+    font-weight: 500;
+    background: -webkit-linear-gradient(left, rgb(243, 204, 172), #e1e1e1);
+}
+
+footer a {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 500px) {
+    img {
+        max-width: 250px;
+        height: 170px;
+    }
+}

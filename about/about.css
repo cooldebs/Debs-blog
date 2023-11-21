@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: -webkit-linear-gradient(left, #fbdbf7, #e0e0e0);
+    font-family: 'Merriweather', sans-serif;
+    height: 100vh;
+}
+
+h1 {
+    margin: 1.25rem auto;
+    text-align: center;
+    font-size: 1.875rem;
+    font-weight: 700;
+}
+
+img {
+    margin: 0.9375rem;
+    object-fit: cover;
+    margin-left: 1.875rem;
+    max-width: 500px;
+    height: 200px;
+    border-radius: 25px;
+}
+
+p {
+    margin: 1.8rem;
+    font-family: 'Muli', sans-serif;
+    font-size: 1.0625rem;
+    line-height: 1.44;
+    max-width: 90rem;
+    font-weight: 500;
+}
+
+main a {
+    margin: 0.75rem 1.87rem;
+    display: block;
+    text-decoration: none;
+    color: blue;
+    font-weight: 500;
+
+}
+
+main a:hover {
+    color: #999;
+}
+
+main i {
+    color: blue;
+    margin-right: 5px;
+    font-size: 1.125rem;
+}
+
+main i:hover {
+    color: #999;
+}
+
+footer a {
+    text-decoration: none;
+    font-size: 1.0625rem;
+    font-weight: 500;
+}
